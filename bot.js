@@ -357,5 +357,5 @@ client.user.setStatus("dnd")
 
 client.login(process.env.BOT_TOKEN);
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "اي دي الروم الصوتية" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "529996918756081665" && ch.type === 'voice').join();
 });
